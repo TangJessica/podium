@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# Description
+This app highlights Shakespeare reviews for his plays. This app works with a backend API to populate the reviews. This app highlights a front end solution for Shakespeare's problem!
+
 # ShakespeareApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
