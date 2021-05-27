@@ -1,0 +1,7 @@
+<div style="text-align:center">
+  <app-home></app-home>
+  <!-- create as many cards as I want to display on front page -->
+  <div *ngFor="let each of review">   
+     <app-review-card [author]="each.author" [body]="each.body" [date]="each.publish_date.substring(0,10)" [stars]="each.rating"></app-review-card>
+  </div>
+</div>

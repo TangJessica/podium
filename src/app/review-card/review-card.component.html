@@ -1,0 +1,16 @@
+<main>
+  <ul class="list-unstyled grid">
+    <li class="card grid" style="--grid-min: 15ch;">
+      <div class="cont">
+        <p>{{author}}</p>
+        <p id="date">Date {{date}}</p>
+      </div>
+      <p id="body">{{body}}</p>
+      <div class="cont"><ngb-rating [max]="5" [(rate)]="stars" [readonly]="false"></ngb-rating>
+        <p id="stars">{{stars}}</p>
+      </div>
+    </li>
+  </ul>
+</main>
+
+  
